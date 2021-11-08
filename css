@@ -1,0 +1,77 @@
+.backgoundColorNav {
+    background-color: #daac00;
+    color: white;
+}
+
+.textNav {
+    color: white !important;
+    font-size: 25px;
+}
+
+.nav-item {
+    padding: 0px 10px;
+}
+
+.navbar {
+    padding: 20px 100px;
+    position: fixed;
+    width: 100%;
+}
+
+.divLogo {
+    padding-right: 50px;
+}
+
+.heightFull {
+    height: 100vh;
+}
+
+.sectionOne {
+    padding-top: 93px;
+    background-color: #fcc302;
+}
+
+.titleSectionOne {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 34px;
+}
+
+.subTitleSectionOne {
+    color: white;
+    font-size: 30px;
+    margin: 0px;
+    margin-bottom: 34px;
+}
+
+.divContentSectionOne {
+    padding: 0px 100px;
+}
+
+.btnSectionOneContact {
+    background-color: #00bec9;
+    border: none;
+    padding: 17px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 30px;
+}
+
+.btnSectionOneContact:hover {
+    background-color: #00bec9;
+}
+
+.btnSectionOneContact:focus {
+    background-color: #00bec9;
+}
+
+.btnSectionOneService {
+    padding: 17px 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.divTextSectionOne {
+    margin-right: 40px;
+}
