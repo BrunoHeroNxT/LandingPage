@@ -1,10 +1,10 @@
 .backgoundColorNav {
-    background-color: #daac00;
+    background-color: #000000;
     color: white;
 }
 
 .textNav {
-    color: white !important;
+    color: rgb(255, 255, 255) !important;
     font-size: 25px;
 }
 
@@ -28,7 +28,7 @@
 
 .sectionOne {
     padding-top: 93px;
-    background-color: #fcc302;
+    background-color: #000000;
 }
 
 .titleSectionOne {
@@ -50,7 +50,7 @@
 }
 
 .btnSectionOneContact {
-    background-color: #00bec9;
+    background-color: #00c94d;
     border: none;
     padding: 17px 25px;
     font-size: 20px;
@@ -59,7 +59,7 @@
 }
 
 .btnSectionOneContact:hover {
-    background-color: #00bec9;
+    background-color: #00aeff;
 }
 
 .btnSectionOneContact:focus {
