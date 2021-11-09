@@ -42,7 +42,7 @@
     color: white;
     font-size: 30px;
     margin: 0px;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 }
 
 .divContentSectionOne {
@@ -74,4 +74,11 @@
 
 .divTextSectionOne {
     margin-right: 40px;
+}
+
+.inscricaoColor {
+    color:#00c94d;
+    font-size: 30px;
+    padding: 0px 200px;
+    margin-bottom: 10px;
 }
