@@ -4,26 +4,27 @@
 }
 
 .textNav {
-    color: rgb(255, 255, 255) !important;
+    color: rgb(255, 255, 255) !important; 
     font-size: 25px;
 }
 
 .nav-item {
-    padding: 0px 10px;
+    padding: 0px 20px;
 }
 
 .navbar {
     padding: 20px 100px;
     position: fixed;
     width: 100%;
+    background-color: black;
 }
 
 .divLogo {
-    padding-right: 50px;
+    padding-right: 40px;
 }
 
 .heightFull {
-    height: 100vh;
+    height: 200vh;
 }
 
 .sectionOne {
@@ -56,6 +57,7 @@
     font-size: 20px;
     font-weight: 600;
     margin-right: 30px;
+    margin-bottom: 1000px;
 }
 
 .btnSectionOneContact:hover {
@@ -70,9 +72,19 @@
     padding: 17px 25px;
     font-size: 20px;
     font-weight: 600;
+    margin-bottom: 1000px;
 }
 
 .divTextSectionOne {
     margin-right: 40px;
 }
 
+.computerOne {
+    margin-top: 90px;
+    width: 1100px;
+}
+
+.topLogo {
+    width: 150px;
+    
+}
