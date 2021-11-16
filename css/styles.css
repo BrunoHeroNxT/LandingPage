@@ -10,6 +10,16 @@
 
 .nav-item {
     padding: 0px 20px;
+    
+}
+
+.nav-item:hover{
+    background-color: #0bb64c;
+    border-radius: 10px;
+}
+
+#a.textNav:hover{ 
+    color: darkmagenta;
 }
 
 .navbar {
