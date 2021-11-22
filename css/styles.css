@@ -121,7 +121,19 @@ h2 {
     color: #00c94d;
 }
 #sobre-nos {
-    font-size: 30px;
+    background-color: black;
+    font-size: 20px;
     color: white;
     text-align: center;
+    margin:0 auto;
+
+}
+.video1{
+    background: black;
+}
+
+#video{
+    width: 750px;
+    margin:0 auto;
+    display: block;
 }
