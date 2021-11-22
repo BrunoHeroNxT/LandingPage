@@ -91,14 +91,13 @@
 }
 
 .divTextSectionOne {
-    margin-right: 30px;
+    margin-right: 100px;
 }
 
 .computerOne {
     display: inline-block;
     margin: 10px;
     width: 90%;
-    padding: 0;
 }
 
 #inscricao {
@@ -115,17 +114,20 @@
     font-size: 50px;
     color: #00c94d;
     font-weight: bold;
+    padding-bottom: 20px;
 }
 #sobre-nos {
     background-color: black;
-    font-size: 20px;
+    font-size: 30px;
     color: white;
     text-align: center;
     margin:0 auto;
-
+    padding-bottom: 37px;
 }
+
 .video1{
     background: black;
+    padding-bottom: 70px;
 }
 
 #video{
