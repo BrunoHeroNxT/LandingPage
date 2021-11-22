@@ -8,6 +8,10 @@
     font-size: 25px;
 }
 
+.topLogo {
+    width: 150px;
+}
+
 .nav-item {
     padding: 0px 20px;
     
@@ -15,7 +19,7 @@
 
 .nav-item:hover{
     background-color: #0bb64c;
-    border-radius: 10px;
+    border-radius: 4px;
 }
 
 #a.textNav:hover{ 
@@ -66,9 +70,8 @@
     padding: 17px 25px;
     font-size: 20px;
     font-weight: 600;
-    margin-right: 30px;
+    margin-right: 10px;
     margin-top: 10px;
-    margin-bottom: 0px;
 }
 
 .btnSectionOneContact:hover {
@@ -88,22 +91,13 @@
 }
 
 .divTextSectionOne {
-    margin-right: 40px;
-}
-
-ul {
-    display: inline-block;
-
+    margin-right: 100px;
 }
 
 .computerOne {
-    margin-top: 120px;
-    width: 1000px;
-}
-
-.topLogo {
-    width: 150px;
-    
+    display: inline-block;
+    margin: 10px;
+    width: 90%;
 }
 
 #inscricao {
@@ -112,16 +106,32 @@ ul {
 
 .sobre {
     background: black;
-    font-family:sans-serif; 
+    font-family: sans-serif; 
 }
 
-h2 {
+.sobre h2 {
     text-align: center;
     font-size: 50px;
     color: #00c94d;
+    font-weight: bold;
+    padding-bottom: 20px;
 }
 #sobre-nos {
+    background-color: black;
     font-size: 30px;
     color: white;
     text-align: center;
+    margin:0 auto;
+    padding-bottom: 37px;
+}
+
+.video1{
+    background: black;
+    padding-bottom: 70px;
+}
+
+#video{
+    width: 750px;
+    margin:0 auto;
+    display: block;
 }
