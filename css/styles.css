@@ -80,6 +80,7 @@
 }
 
 .btnSectionOneService {
+    
     padding: 17px 25px;
     font-size: 20px;
     font-weight: 600;
@@ -88,17 +89,14 @@
 }
 
 .divTextSectionOne {
-    margin-right: 40px;
+    margin-right: 0px;
 }
 
-ul {
+.computador {
     display: inline-block;
-
-}
-
-.computerOne {
-    margin-top: 120px;
-    width: 1000px;
+    margin: 100px;
+    width: 90%;
+    padding: 0px 90px;
 }
 
 .topLogo {
@@ -115,7 +113,7 @@ ul {
     font-family:sans-serif; 
 }
 
-h2 {
+.sobre h2 {
     text-align: center;
     font-size: 50px;
     color: #00c94d;
