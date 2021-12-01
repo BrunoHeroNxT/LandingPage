@@ -1,3 +1,4 @@
+
 .backgoundColorNav {
     background-color: #000000;
     color: white;
@@ -13,13 +14,25 @@
 }
 
 .nav-item {
-    padding: 0px 20px;
-    
+    padding: 0px 1px;
+    border-radius: 20;
+    transition: color 1s;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .nav-item:hover{
-    background-color: #0bb64c;
-    border-radius: 4px;
+    background-color: #000000;
+    transition: 1s;
+    border-radius: 5%;
+    
+}
+
+.nav-link:hover{
+    transition: 1s;
+    color: #0fc92e!important;
 }
 
 #a.textNav:hover{ 
@@ -48,9 +61,20 @@
 
 .titleSectionOne {
     color: white;
-    font-size: 50px;
-    font-weight: 600;
-    margin-top: 34px;
+    font-size: 60px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding-bottom: 10px;
+    animation: movetitleSectionOne 2s backwards;
+}
+
+@keyframes movetitleSectionOne{
+    0%{
+        transform: translateX(-50em);
+    }
+    100%{
+        transform: translateX(0rem);
+    }
 }
 
 .subTitleSectionOne {
@@ -58,6 +82,24 @@
     font-size: 30px;
     margin: 0px;
     margin-top: 30px;
+    object-fit: cover;
+    margin-bottom: 30px;
+    animation: movesubTitleSectionOne 2.4s backwards;
+    
+}
+
+@keyframes movesubTitleSectionOne{
+    0%{
+        transform: translateX(-50em);
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateX(0rem);
+    }
 }
 
 .divContentSectionOne {
@@ -72,10 +114,26 @@
     font-weight: 600;
     margin-right: 10px;
     margin-top: 10px;
+    animation: movebtnSectionOneContact 2.5s backwards;
+}
+
+@keyframes movebtnSectionOneContact{
+    0%{
+        transform: translateX(-50em);
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0rem);
+    }
 }
 
 .btnSectionOneContact:hover {
-    background-color: #00aeff;
+    transition: 1s;
+    background-color: #ffffff;
+    color: black;
 }
 
 .btnSectionOneContact:focus {
@@ -88,6 +146,21 @@
     font-weight: 600;
     margin-top: 10px;
     margin-bottom: 0px;
+    transition: 1s;
+    animation: movebtnSectionOneContact 2.3s backwards;
+}
+
+@keyframes movebtnSectionOneContact{
+    0%{
+        transform: translateX(-50em);
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0rem);
+    }
 }
 
 .divTextSectionOne {
@@ -96,8 +169,8 @@
 
 .computerOne {
     display: inline-block;
-    margin: 10px;
-    width: 90%;
+    margin: 0px;
+    width: 80%;
 }
 
 #inscricao {
@@ -135,3 +208,26 @@
     margin:0 auto;
     display: block;
 }
+
+#titulo{
+    padding: 1em;
+    text-align:center;
+    font-size: 30px;
+    background-color: #00c94d;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 20px;
+    color: #000000;
+    margin-bottom: 1px;
+}
+
+.campo{
+    padding: 1em;
+    text-align: center;
+    
+}
+
+.mensagem{
+    size: 1000px;
+}
+

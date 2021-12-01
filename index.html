@@ -43,14 +43,14 @@
     </nav>
     <section class="heightFull sectionOne">
         <div class="d-flex h-100 divContentSectionOne">
-            <ul class="align-self-center divTextSectionOne">
-                <p class="titleSectionOne">Curso de manutenção e </br> montagem de computadores</p>
+            <div class="align-self-center divTextSectionOne">
+                <p class="titleSectionOne">Curso de manutenção <br>e montagem de computadores</p>
                 <p class="subTitleSectionOne">Entre em contato conosco </br> para realizar a <strong id="inscricao">inscrição</strong></p>
                 <button type="button" class="btn btn-primary btnSectionOneContact mr-5">Contate-nos</button>
                 <button type="button" class="btn btn-outline-light btnSectionOneService">Nosso Serviço</button>
-                </ul>
+            </div>
             <div class="align-self-center">
-                <img class="computerOne" src="./images/computer-head.png">
+                <img class="computerOne" src="./images/pc.png">
             </div>
         </div>
     </section>
@@ -61,11 +61,38 @@
         inovadoras na área de manutenção de computadores.</p>
         
     </div>
-    <div class="video1">
-        
+    <div class="video1">  
         <iframe id = "video" width="853" height="480" src="https://www.youtube.com/embed/mdPzHzpLEOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+
+    <div>
+        <h1 id="titulo">Entre em contato</h1>
+        <br>
+    </div>
     
+<form>
+    <fieldset class="grupo">
+        <div class="campo">
+            <label for="NomeCompleto"><strong>Nome completo</strong></label>
+            <input type="text" name="nome" id="nome" required>
+        </div>
+
+    </fieldset>
+
+    <div class="campo">
+        <label for="Email"><strong>Email</strong></label>
+        <input type="email" name="email" id="email" required>
+    </div>
+
+    <div class="campo">
+        <br>
+        <label for="Mensagem"><strong>Mensagem</strong></label>
+        <textarea row="" id="mensagem" name="mensagem" required></textarea>
+    </div>
+
+    <button type="submit">Enviar</button>
+</form>
+
 </body>
 
 </html>
