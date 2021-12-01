@@ -169,8 +169,23 @@
 
 .computerOne {
     display: inline-block;
-    margin: 0px;
-    width: 80%;
+    padding-left: 100px;
+    margin-left: 100px;
+    width: 85%;
+    animation: movecomputerOne 2s;
+}
+
+@keyframes movecomputerOne{
+    0%{
+        transform: translateX(50em);
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0rem);
+    }
 }
 
 #inscricao {
