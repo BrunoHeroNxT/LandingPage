@@ -215,7 +215,7 @@
 
 .video1{
     background: black;
-    padding-bottom: 70px;
+    padding-bottom: 190px;
 }
 
 #video{
@@ -228,8 +228,10 @@
     background-color: #00c94d;
     padding: 2.5%;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     text-shadow: 2px 2px 0px  #0aa746;
+    padding: 125px 0 0 ;
+
 }
 
 .contato{

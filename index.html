@@ -30,10 +30,10 @@
                             <a class="nav-link textNav" id="back-to-top">Início</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link textNav" href="COLOCAR LINK AQUI">Sobre</a>
+                            <a class="nav-link textNav" href="#scroll-about" id="scroll-about">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link textNav" href="COLOCAR LINK AQUI">Equipe</a>   
+                            <a class="nav-link textNav" href="#">Equipe</a>   
                         </li>
 
                     </ul>
@@ -41,53 +41,55 @@
             </div>
         </div>
     </nav>
-    <section class="heightFull sectionOne">
-        <div class="d-flex h-100 divContentSectionOne">
-            <div class="align-self-center divTextSectionOne">
-                <p class="titleSectionOne">Curso de manutenção <br>e montagem de computadores</p>
-                <p class="subTitleSectionOne">Entre em contato conosco </br> para realizar a <strong id="inscricao">inscrição</strong></p>
-                <button type="button" class="btn btn-primary btnSectionOneContact mr-5">Contate-nos</button>
-                <button type="button" class="btn btn-outline-light btnSectionOneService">Nosso Serviço</button>
+        <section class="heightFull sectionOne">
+            <div class="d-flex h-100 divContentSectionOne">
+                <div class="align-self-center divTextSectionOne">
+                    <p class="titleSectionOne">Curso de manutenção <br>e montagem de computadores</p>
+                    <p class="subTitleSectionOne">Entre em contato conosco </br> para realizar a <strong id="inscricao">inscrição</strong></p>
+                    <button type="button" class="btn btn-primary btnSectionOneContact mr-5" id="scroll-contact">Contate-nos</button>
+                    <button type="button" class="btn btn-outline-light btnSectionOneService">Nosso Serviço</button>
+                </div>
+                <div class="align-self-center">
+                    <img class="computerOne" src="./images/pc.png">
+                </div>
             </div>
-            <div class="align-self-center">
-                <img class="computerOne" src="./images/pc.png">
+        </section>
+
+        <section>
+            <div class="sobre">
+                <h2>Sobre nós</h2>        
+                <p id="sobre-nos">A Seventeen atua no mercado a mais de 10 anos.<br id="sobre-nos-br"> sempre trazendo conceitos e técnicas
+                inovadoras na área de manutenção de computadores.</p>
+                
             </div>
+            <div class="video1">  
+                <iframe id = "video" width="853" height="480" src="https://www.youtube.com/embed/mdPzHzpLEOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <div class="contatar">
+            <h1><b>Mande sua mensagem</b></h1>
         </div>
-    </section>
-
-    <div class="sobre">
-        <h2>Sobre nós</h2>        
-        <p id="sobre-nos">A Seventeen atua no mercado a mais de 10 anos.<br id="sobre-nos-br"> sempre trazendo conceitos e técnicas
-        inovadoras na área de manutenção de computadores.</p>
-        
-    </div>
-    <div class="video1">  
-        <iframe id = "video" width="853" height="480" src="https://www.youtube.com/embed/mdPzHzpLEOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-    <div class="contatar">
-        <h1><b>Mande sua mensagem</b></h1>
-    </div>
-    <div class="contato">
-        <form class="form" method="POST" action="index.html">
-            <div class="row flx">
-                <input type="text" class="input" name="nome" placeholder="Nome" required>
-                <input type="text" class="input" name="sobrenome" placeholder="Sobrenome" required>
-            </div>
-            <div class="row">
-                <input type="text" class="input" name="email" placeholder="Email" required>
-            </div>
-            <div class="row">
-                <input type="text" class="input" name="assunto" placeholder="Assunto" required>
-            </div>
-            <div class="row">
-                <textarea class="textarea" name="mensagem" placeholder="Mensagem" required></textarea>
-            </div>
-            <div class="row">
-                <input type="submit" class="btn" name="enviar" value="Enviar">
-            </div>
-        </form>
-    </div>
-
+        <div class="contato">
+            <form class="form" method="POST" action="index.html">
+                <div class="row flx">
+                    <input type="text" class="input" name="nome" placeholder="Nome" required>
+                    <input type="text" class="input" name="sobrenome" placeholder="Sobrenome" required>
+                </div>
+                <div class="row">
+                    <input type="text" class="input" name="email" placeholder="Email" required>
+                </div>
+                <div class="row">
+                    <input type="text" class="input" name="assunto" placeholder="Assunto" required>
+                </div>
+                <div class="row">
+                    <textarea class="textarea" name="mensagem" placeholder="Mensagem" required></textarea>
+                </div>
+                <div class="row">
+                    <input type="submit" class="btn" name="enviar" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </body>
 <script src="script.js"></script>
 </html>
