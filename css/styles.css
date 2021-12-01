@@ -224,25 +224,92 @@
     display: block;
 }
 
-#titulo{
-    padding: 1em;
-    text-align:center;
-    font-size: 30px;
+.contatar{
     background-color: #00c94d;
-    margin-right: 300px;
-    margin-left: 300px;
-    margin-top: 20px;
-    color: #000000;
-    margin-bottom: 1px;
-}
-
-.campo{
-    padding: 1em;
+    padding: 2.5%;
     text-align: center;
-    
+    font-size: 30px;
+    text-shadow: 2px 2px 0px  #0aa746;
 }
 
-.mensagem{
-    size: 1000px;
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    background-color: #00c94d; 
+
 }
 
+.form{
+    display: block;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.form .row{
+    display: block;
+    padding: 10px;
+}
+
+.form .flx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form .flx .input{
+    flex: 1;
+}
+
+.form .flx .input:first-child{
+    margin-right: 20px;
+}
+
+.form .input{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: #333333;
+}
+
+.form .input:focus{
+    outline-color: #2196f3;
+}
+
+.form .textarea{
+    display: block;
+    width: 100%;
+    height: 150px;
+    padding: 8px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    font-size: 1.2em;
+    resize: none;
+}
+
+.form .textarea:focus{
+    outline-color: #2196f3;
+}
+
+.form .btn{
+    display: block;
+    background-color: #00c94d;
+    color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+    width: 30%;
+}
+
+.form .btn:hover{
+    background-color: #36ad64;
+}
+
+ 
