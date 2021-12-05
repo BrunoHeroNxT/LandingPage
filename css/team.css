@@ -1,14 +1,17 @@
 .team {
   background-color: black;
+  padding-top: 80px;
 }
 
 .team .team-image{
   display: block;
   margin: auto;
-  padding-top: 80px;
   width: 1500px;
-
+  border: 3px solid; 
+  border-color: aliceblue;
+  border-radius: 15px;
 }
+
 
 .team .team-ul {
   padding: 0 25rem;
