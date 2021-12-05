@@ -14,7 +14,8 @@
 
 
 .team .team-ul {
-  padding: 0 25rem;
+  text-align: center;
+  margin-right: 5rem;
 }
 
 .team .team-ul li{
