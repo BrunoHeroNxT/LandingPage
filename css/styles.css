@@ -303,7 +303,7 @@
     color: #FFFFFF;
     border: 1px solid #CCCCCC;
     border-radius: 5px;
-    transition-duration: 0.3s;
+    transition: 0.3s;
     width: 30%;
 }
 
