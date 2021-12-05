@@ -14,7 +14,8 @@
 
 
 .team .team-ul {
-  padding: 0 25rem;
+  text-align: center;
+  margin-right: 5rem;
 }
 
 .team .team-ul li{
@@ -45,6 +46,10 @@
   text-transform: uppercase;
   font-weight: bold;
   text-decoration: none;
+}
+
+#felix {
+  color: red;
 }
 
 .team .team-ul #git-link {
